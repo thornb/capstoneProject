@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Patient View</title>
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></script>
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"></script>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="graphData.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+	</head>
+	
+	<body>
+    	<div id="header-bar">
+    		<!--<p>Deloitte</p>-->
+    		<img id="logo" src="http://cycling.deloitte.com/img/logo-white.png" />
+    	</div>
+    	
+    	<div id="info-sect" class="row">
+        	<div id="pat-info" class="col-md-4 inline col-md-offset-1">
+        		<ul>
+        			<li>First Name: <span id="pat-first-name" class="info-span">Brandon</span></li>
+        			<li>Last Name: <span id="pat-last-name" class="info-span">Thorne</span></li>
+        			<li>Patient ID: <span id="pat-id" class="info-span">3</span></li>
+        			<li>Room: <span id=pat-room class="info-span">105</span></li>
+        		</ul>
+        	</div>
+        	<div id="staff-info" class="col-md-4 inline col-md-offset-1">
+        		<ul>
+        			<li>Primary: <span id="staff-primary" class="info-span">Dr. David Ivey</span></li>
+        			<li>Nurse: <span id="staff-nurse" class="info-span">Rini Palamittam</span></li>
+        			<li>Tech: <span id="staff-tech" class="info-span">Ryan Mackenzie</span></li>
+        		</ul>
+        	</div>
+    	</div>
+    	
+    	<div id="row sensor-sect">
+    	    <div class="col-md-1 sensor-info col-md-offset-1">
+    	        <h2>Sensor 1</h2>
+    	        <h3 class="sub-head">Heart Rate:</h3> 
+    	        <span id="heartRate" class="number-data"> 65 </span> BPM
+    	    </div>
+    	    <div class="col-md-3" style="padding-left:0;">
+    			<div id="HRchartContainer" style="height: 200px; width:335px;margin:0;">
+	    		</div>    
+    	    </div>
+    	<!--</div>-->
+    	
+    	
+	    
+	    <!--<div id="row sensor-sect">-->
+    	    <div class="col-md-2 sensor-info move-right">
+    	        <h2>Sensor 2</h2>
+    	        <h3 class="sub-head">Blood Glucose:</h3> 
+    	        <span id="bloodGlucose" class="number-data"></span> mmol/L
+    	    </div>
+    	    <div class="col-md-4" style="padding-left:0;">
+    			<div id="BGchartContainer" style="height: 200px; width:335px;">
+	    		</div>    	
+    	    </div>
+    	    
+    	    
+    	</div>
+    	
+    	
+	
+	</body>
+	
+	
+</html>

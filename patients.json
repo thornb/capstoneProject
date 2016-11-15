@@ -1,0 +1,31 @@
+{
+    "patients":[
+        {
+            "firstname":"Bernard",
+            "lastname":"Stinson",
+            "patientID":"1696969",
+            "room":"369",
+            "primary":"Dr. Cox"
+        },
+          {
+            "firstname":"Bender",
+            "lastname":"Rodriguez",
+            "patientID":"2716057",
+            "room":"036",
+            "primary":"Dr. Zoidberg"
+        },
+          {
+            "firstname":"Peter",
+            "lastname":"Griffin",
+            "patientID":"1010192",
+            "room":"634",
+            "primary":"Dr. Hartman"
+        },
+          {
+            "firstname":"",
+            "lastname":"",
+            "patientID":"",
+            "room":"",
+            "primary":""
+        }
+]}
